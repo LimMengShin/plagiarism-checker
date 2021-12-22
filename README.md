@@ -8,6 +8,11 @@ Next, install dependencies by running:
 python -m pip install -r requirements.txt
 ```
 
+Download Punkt Sentence Tokenizer Models by running:
+```
+python -m nltk.downloader 'punkt'
+```
+
 Get a News API key at https://newsapi.org and an Opticc API key at https://optiic.dev.
 
 Create a ```.env``` file and add your News API and Opticc API key:
